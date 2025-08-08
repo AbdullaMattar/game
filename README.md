@@ -46,7 +46,18 @@ The script is executed via the command line and accepts several arguments to con
 **Syntax:**
 
     python your_script_name.py <colors> <height> <empty_tubes> <output_file> <num_levels> [options]
-    
+#### Optional Arguments:
+
+
+Sets a minimum required move count for a level to be saved.
+
+`--min_moves 15`
+
+Sets a maximum allowed move count for a level to be saved.
+
+`--max_moves 30`
+
+
 
 ## Output Format
 
